@@ -49,6 +49,8 @@ thresh37_mae = thresh37_false_mae+thresh37_true_mae
 
 answer = 37.5
 
+# Learning how to get the optimum threshold for classification trees
+
 ### Gini impurity
 
 parent_gini = 1- ((sum(toy_entrance['entrance'] == 'Allowed')/len(toy_entrance))**2 + (sum(toy_entrance['entrance'] == 'Denied')/len(toy_entrance))**2)
